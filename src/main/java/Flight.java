@@ -7,6 +7,7 @@ public class Flight {
     private String destination;
     private String departureAirport;
     private String departureTime;
+    private Passenger passenger;
 
     public Flight(String flightNum, String destination, String departureAirport, String departureTime){
         passengers = new ArrayList<Passenger>();
@@ -22,10 +23,14 @@ public class Flight {
     public void addSmallPlaneToFlight(){
         plane.add(PlaneType.BOEINGSMALL);
     }
+    public void addPassengerToFlight(Passenger passenger) {
+        passengers.add(passenger);
+    }
     public int getPlaneSize(){
         return this.plane.size();
     }
     public int getPlaneCapacity() {
         return this.plane.get(0).getCapacity();
     }
+
 }

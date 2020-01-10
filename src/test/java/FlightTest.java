@@ -5,10 +5,12 @@ import static org.junit.Assert.assertEquals;
 
 public class FlightTest {
     Flight flight;
+    Passenger passenger
 
     @Before
     public void before(){
         flight = new Flight("EZJT123", "EDI", "GLA", "13:00");
+        passenger = new Passenger("BigTendo", 2);
     }
 //    @Test
 //    public void flightShouldReturnNumberOfSeats(){
@@ -23,6 +25,14 @@ public class FlightTest {
     public void canReturnNumSeats(){
         flight.addLargePlaneToFlight();
         assertEquals(200, flight.getPlaneCapacity());
+    }
+    @Test
+    public  
+    @Test
+    public void canReturnNumAvailSeats(){
+        flight.addLargePlaneToFlight();
+        flight.addPassengerToFlight(passenger);
+        assertEquals(199, flight.getAvailSeats());
     }
 
 
