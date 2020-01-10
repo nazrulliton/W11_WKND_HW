@@ -23,7 +23,7 @@ public class Flight {
     public void addSmallPlaneToFlight(){
         plane.add(PlaneType.BOEINGSMALL);
     }
-    public void addPassengerToFlight(Passenger passenger) {
+    public void bookPassengerToFlight(Passenger passenger) {
         if (getAvailSeats() > 0 ){
             passengers.add(passenger);}
     }
@@ -41,5 +41,9 @@ public class Flight {
 
     public int getAvailSeats() {
         return this.plane.get(0).getCapacity() - this.passengers.size();
+    }
+
+    public int getNumOfBag() {
+        return passenger.getNumOfBags();
     }
 }

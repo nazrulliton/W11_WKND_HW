@@ -29,22 +29,15 @@ public class FlightTest {
     @Test
     public void canAddPtoFlight(){
         flight.addLargePlaneToFlight();
-        flight.addPassengerToFlight(passenger);
+        flight.bookPassengerToFlight(passenger);
         assertEquals(1, flight.getPassengerSize());
 
     }
     @Test
     public void canReturnNumAvailSeats(){
         flight.addLargePlaneToFlight();
-        flight.addPassengerToFlight(passenger);
+        flight.bookPassengerToFlight(passenger);
         assertEquals(199, flight.getAvailSeats());
     }
-//    @Test
-//    public void canBookPassenger(){
-//        flight.addSmallPlaneToFlight();
-//        assertEquals();
-//
-//    }
-
 
 }
