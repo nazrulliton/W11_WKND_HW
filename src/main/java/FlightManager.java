@@ -1,15 +1,16 @@
-import java.util.ArrayList;
 
 public class FlightManager {
    private Flight flight;
+   private Passenger passenger;
 
    public FlightManager(Flight flight){
        this.flight = flight;
    }
 
     public int getBagWeight() {
-        int numOfBags = this.flight.getNumOfBag();
+        int numOfBags = this.passenger.getNumOfBags();
         int weight = 20;
-        return (numOfBags * weight);
+        return numOfBags + weight;
     }
+
 }

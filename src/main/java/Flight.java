@@ -46,4 +46,5 @@ public class Flight {
     public int getNumOfBag() {
         return passenger.getNumOfBags();
     }
+
 }
