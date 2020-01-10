@@ -15,8 +15,17 @@ public class Flight {
         this.destination = destination;
         this.departureAirport = departureAirport;
         this.departureTime = departureTime;
-
-
     }
-
+    public void addLargePlaneToFlight(){
+        plane.add(PlaneType.BOEINGLARGE);
+    }
+    public void addSmallPlaneToFlight(){
+        plane.add(PlaneType.BOEINGSMALL);
+    }
+    public int getPlaneSize(){
+        return this.plane.size();
+    }
+    public int getPlaneCapacity() {
+        return this.plane.get(0).getCapacity();
+    }
 }
