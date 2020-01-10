@@ -17,7 +17,8 @@ public class FlightManagerTest {
     public void canCalcBaggageWeightForPassenger(){
         flight.addLargePlaneToFlight();
         flight.bookPassengerToFlight(passenger);
-        assertEquals(22, flightManager.getBagWeight());
+        int weight = flightManager.getBagWeight();
+        assertEquals(40, weight);
 }
 
 }
