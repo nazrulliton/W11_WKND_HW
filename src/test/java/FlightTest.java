@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 
 public class FlightTest {
     Flight flight;
-    Passenger passenger
+    Passenger passenger;
 
     @Before
     public void before(){
@@ -27,7 +27,11 @@ public class FlightTest {
         assertEquals(200, flight.getPlaneCapacity());
     }
     @Test
-    public  
+    public void canAddPtoFlight(){
+        flight.addPassengerToFlight(passenger);
+        assertEquals(1, flight.getPassengerSize());
+
+    }
     @Test
     public void canReturnNumAvailSeats(){
         flight.addLargePlaneToFlight();

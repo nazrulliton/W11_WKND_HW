@@ -33,4 +33,11 @@ public class Flight {
         return this.plane.get(0).getCapacity();
     }
 
+    public int getPassengerSize() {
+        return this.passengers.size();
+    }
+
+    public int getAvailSeats() {
+        return this.plane.get(0).getCapacity() - this.passengers.size();
+    }
 }
