@@ -10,6 +10,6 @@ public class PlaneTest {
     public void before(){
         plane = new Plane(PlaneType.BOEINGLARGE);
     }
-    
+
 }
 
