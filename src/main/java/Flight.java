@@ -24,8 +24,10 @@ public class Flight {
         plane.add(PlaneType.BOEINGSMALL);
     }
     public void addPassengerToFlight(Passenger passenger) {
-        passengers.add(passenger);
+        if (getAvailSeats() > 0 ){
+            passengers.add(passenger);}
     }
+
     public int getPlaneSize(){
         return this.plane.size();
     }
