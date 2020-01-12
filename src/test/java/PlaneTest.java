@@ -10,6 +10,11 @@ public class PlaneTest {
     public void before(){
         plane = new Plane(PlaneType.BOEINGLARGE);
     }
+    // not used
+//    @Test
+//    public void checkAllotmentForBaggageWeight(){
+//        assertEquals(400, plane.weightReservedForBaggage());
+//    }
 
 }
 

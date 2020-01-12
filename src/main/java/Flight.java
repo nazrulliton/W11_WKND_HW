@@ -52,5 +52,8 @@ public class Flight {
     public ArrayList<Passenger> returnListOfPassenger(){
         return this.passengers;
     }
+    public int getPlaneBaggageWeightAllowance(){
+        return this.plane.get(0).getTotalWeight()/2;
+    }
 
 }

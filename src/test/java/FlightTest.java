@@ -45,6 +45,11 @@ public class FlightTest {
         flight.bookPassengerToFlight(passenger);
         assertEquals(2, flight.getNumOfBag());
     }
-
+    @Test
+    public void checkAllowanceForBaggageWeight() {
+        flight.addLargePlaneToFlight();
+        flight.bookPassengerToFlight(passenger);
+        assertEquals(400, flight.getPlaneBaggageWeightAllowance());
+    }
 
 }

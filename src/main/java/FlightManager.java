@@ -20,6 +20,9 @@ public class FlightManager {
         }
         return total;
     }
+//    public int overallWeightReservedForBaggageRemaining(){
+//       return weightToReserveForAllPassengers() -
+//    }
 
 }
 
