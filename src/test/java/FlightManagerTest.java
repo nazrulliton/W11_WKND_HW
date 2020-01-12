@@ -28,4 +28,5 @@ public class FlightManagerTest {
         assertEquals(60, flightManager.weightToReserveForAllPassengers() );
     }
 
+
 }

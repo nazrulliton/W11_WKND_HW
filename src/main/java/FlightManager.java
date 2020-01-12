@@ -20,9 +20,9 @@ public class FlightManager {
         }
         return total;
     }
-//    public int overallWeightReservedForBaggageRemaining(){
-//       return weightToReserveForAllPassengers() -
-//    }
+    public int overallWeightReservedForBaggageRemaining(){
+       return weightToReserveForAllPassengers() - flight.getPlaneBaggageWeightAllowance();
+    }
 
 }
 
