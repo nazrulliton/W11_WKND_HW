@@ -21,7 +21,7 @@ public class FlightManager {
         return total;
     }
     public int overallWeightReservedForBaggageRemaining(){
-       return weightToReserveForAllPassengers() - flight.getPlaneBaggageWeightAllowance();
+       return flight.getPlaneBaggageWeightAllowance() - weightToReserveForAllPassengers();
     }
 
 }

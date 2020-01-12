@@ -27,6 +27,9 @@ public class FlightManagerTest {
     public void CanCountTotalBagWeightOfAllPassengers(){
         assertEquals(60, flightManager.weightToReserveForAllPassengers() );
     }
-
+    @Test
+    public void canCalcTotalRemainBaggageWeightInHold(){
+        assertEquals(340, flightManager.overallWeightReservedForBaggageRemaining());
+    }
 
 }
