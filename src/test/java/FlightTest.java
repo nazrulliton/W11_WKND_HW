@@ -39,5 +39,11 @@ public class FlightTest {
         flight.bookPassengerToFlight(passenger);
         assertEquals(199, flight.getAvailSeats());
     }
+    @Test
+    public void canReturnNumOfBags(){
+        flight.addLargePlaneToFlight();
+        flight.bookPassengerToFlight(passenger);
+        assertEquals(2, flight.getNumOfBag());
+    }
 
 }
