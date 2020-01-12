@@ -7,8 +7,11 @@ public class FlightManager {
        this.flight = flight;
    }
 
-    public Flight getFlight() {
-        return flight;
+    public int weightToReserveForPassenger(){
+       int unitBagWeight = 20;
+       int unitOfBags = flight.getNumOfBag();
+       return unitBagWeight * unitOfBags;
     }
 
 }
+

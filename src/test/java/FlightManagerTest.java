@@ -14,6 +14,11 @@ public class FlightManagerTest {
         passenger = new Passenger("BigTendo", 2);
         flight.addLargePlaneToFlight();
         flight.bookPassengerToFlight(passenger);
+        flightManager = new FlightManager(flight);
+    }
+    @Test
+    public void canCountTotalBagWeightOfPassenger(){
+        assertEquals(40, flightManager.weightToReserveForPassenger());
     }
 
 
