@@ -49,5 +49,8 @@ public class Flight {
     public int getNumOfBag() {
         return this.passengers.get(0).getNumOfBags();
     }
+    public ArrayList<Passenger> returnListOfPassenger(){
+        return this.passengers;
+    }
 
 }

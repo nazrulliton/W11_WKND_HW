@@ -46,4 +46,5 @@ public class FlightTest {
         assertEquals(2, flight.getNumOfBag());
     }
 
+
 }

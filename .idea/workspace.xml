@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="26f65cad-99d3-4c54-83c2-34985da11b61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Flight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FlightManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FlightManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FlightManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FlightManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FlightManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FlightManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FlightManagerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FlightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,12 +49,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FlightManagerTest.canCountTotalBagWeightOfPassenger">
-    <configuration name="FlightManagerTest.canCalcBaggageWeightForPassenger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FlightManagerTest.CanCountTotalBagWeightOfAllPassengers">
+    <configuration name="FlightManagerTest.CanCountTotalBagWeightOfAllPassengers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Airline" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FlightManagerTest" />
-      <option name="METHOD_NAME" value="canCalcBaggageWeightForPassenger" />
+      <option name="METHOD_NAME" value="CanCountTotalBagWeightOfAllPassengers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FlightManagerTest.CanCountTotalBagWeightOfAllPassengers" />
         <item itemvalue="JUnit.FlightManagerTest.canCountTotalBagWeightOfPassenger" />
         <item itemvalue="JUnit.FlightTest.canReturnNumOfBags" />
         <item itemvalue="JUnit.PassengerTest.PHasBags" />
         <item itemvalue="JUnit.FlightManagerTest.canReturnFlight" />
-        <item itemvalue="JUnit.FlightManagerTest.canCalcBaggageWeightForPassenger" />
       </list>
     </recent_temporary>
   </component>

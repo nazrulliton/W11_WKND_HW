@@ -12,6 +12,14 @@ public class FlightManager {
        int unitOfBags = flight.getNumOfBag();
        return unitBagWeight * unitOfBags;
     }
+    public int weightToReserveForAllPassengers(){
+        ArrayList<Passenger> passengerList = this.flight.returnListOfPassenger();
+        int total = 0;
+        for (Passenger passenger: passengerList){
+            total += passenger.getWeightOfBags();
+        }
+        return total;
+    }
 
 }
 
